@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
         <div className="md:flex-row flex flex-col w-full md:gap-x-5 gap-y-7">
           <div className="grid relative md:w-[60%] w-full h-[329px] rounded-[20px] items-center gap-[10px] bg-[url('/assets/images/pulau-seribu.svg')] bg-cover bg-center">
-            <div className="absolute bottom-0 text-white px-9 py-6 bg-black/15 w-full">
+            <div className="absolute bottom-0 text-white px-9 py-6 bg-black/15 w-full rounded-b-2xl">
               <h1 className="font-bold md:text-[40px] text-3xl">
                 Kepulauan Seribu
               </h1>
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid relative md:w-[40%] w-full h-[329px] rounded-[20px] items-center gap-[10px] bg-[url('/assets/images/main-bg.svg')] bg-cover bg-center">
-            <div className="absolute bottom-0 text-white px-9 py-6 bg-black/15 w-full">
+            <div className="absolute bottom-0 text-white px-9 py-6 bg-black/15 w-full rounded-b-2xl">
               <h1 className="font-bold md:text-[40px] text-3xl">
                 Kepulauan Seribu
               </h1>
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div className="flex w-full">
           <div className="grid relative w-full h-[329px] rounded-[20px] items-center gap-[10px] bg-[url('/assets/images/bromo.svg')] bg-cover bg-center">
-            <div className="absolute bottom-0 text-white px-9 py-6 md:bg-transparent bg-black/15 w-full">
+            <div className="absolute bottom-0 text-white px-9 py-6 md:bg-transparent bg-black/15 w-full rounded-b-2xl">
               <h1 className="font-bold md:text-[40px] text-3xl">
                 Kepulauan Seribu
               </h1>
@@ -95,7 +95,7 @@ export default function Home() {
         </div>
         <div className="md:flex-row flex flex-col w-full md:gap-x-5 gap-y-7">
           <div className="grid relative md:w-[40%] w-full h-[329px] rounded-[20px] items-center gap-[10px] bg-[url('/assets/images/kuta.svg')] bg-cover bg-center">
-            <div className="absolute bottom-0 text-white px-9 py-6 md:bg-transparent bg-black/15 w-full">
+            <div className="absolute bottom-0 text-white px-9 py-6 md:bg-transparent bg-black/15 w-full rounded-b-2xl">
               <h1 className="font-bold md:text-[40px] text-3xl">
                 Kepulauan Seribu
               </h1>
@@ -117,7 +117,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid relative md:w-[60%] w-full h-[329px] rounded-[20px] items-center gap-[10px] bg-[url('/assets/images/gatau.svg')] bg-cover bg-center">
-            <div className="absolute bottom-0 text-white px-9 py-6 bg-black/15 w-full">
+            <div className="absolute bottom-0 text-white px-9 py-6 bg-black/15 w-full rounded-b-2xl">
               <h1 className="font-bold md:text-[40px] text-3xl">
                 Kepulauan Seribu
               </h1>
