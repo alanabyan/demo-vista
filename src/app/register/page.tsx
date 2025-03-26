@@ -5,9 +5,9 @@ import { Label } from "@/components/ui/label";
 export default function RegisterPage() {
   return (
     <div
-      className={`w-full h-screen bg-[url('/assets/images/bg-login.svg')] relative bg-cover`}
+      className={`w-full h-screen bg-[url('/assets/images/bg-login.svg')] relative bg-cover md:px-0 px-4 md:py-0 py-10`}
     >
-      <div className="max-w-[675px] w-full flex px-10 absolute right-20 top-20 bg-white rounded-[30px] h-fit py-10">
+      <div className="max-w-[675px] w-full flex px-10 md:absolute right-20 top-20 bg-white rounded-[30px] h-fit py-10">
         <div className="flex flex-col w-full text-black gap-y-9">
           <h1 className="text-[36px] font-semibold">Welcome to VistaNusa!</h1>
           <div className="flex w-full gap-x-12">
