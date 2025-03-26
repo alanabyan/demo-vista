@@ -140,6 +140,17 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="bg-[url('/assets/images/swim.svg')] w-full bg-cover bg-center py-[180px] rounded-[20px] flex flex-col justify-center items-center text-white">
+        <h1 className="font-semibold text-[64px] w-full max-w-[524px] text-center">
+          Let&apos;s Explore Heaven Together
+        </h1>
+        <div className="w-full max-w-[579px] h-[69px] bg-white rounded-full mt-[60px] relative flex items-center px-2">
+          <div className="w-16 h-16 bg-black rounded-full absolute right-2 flex justify-center items-center">
+            <Icon icon="bitcoin-icons:search-outline" width="50" height="50" />
+          </div>
+        </div>
+        <p className="font-medium text-xl mt-8">Popular: Jakarta Bali Raja Ampat</p>
+      </div>
     </div>
   );
 }
