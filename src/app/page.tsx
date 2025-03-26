@@ -6,7 +6,7 @@ export default function Home() {
       <div className="bg-[url('/assets/images/main-bg.svg')] w-full h-[709px] rounded-[20px] bg-cover bg-center px-12 flex flex-col py-12 flex-grow">
         <div className="mt-auto md:flex justify-between items-end w-full">
           <div className="text-white max-w-[805px]">
-            <h1 className="text-[64px] font-semibold">
+            <h1 className="text-[64px] sm:text-3xl font-semibold">
               Discover Indonesia&apos;s Best Travel Spots
             </h1>
             <p className="font-medium text-xl md:mt-0 mt-4">
