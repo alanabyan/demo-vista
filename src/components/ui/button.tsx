@@ -18,7 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        login: "bg-black w-full rounded-[40px] text-white font-semibold text-2xl tracking-wide  transition-all duration-300 ease-linear hover:text-black hover:bg-transparent hover:border-black hover:border-2"
+        login: "bg-black w-full rounded-[40px] text-white font-semibold text-2xl tracking-wide  transition-all duration-300 ease-linear hover:text-black hover:bg-transparent hover:border-black hover:border-2",
+        totalDestination: "bg-white/50 border border-white rounded-full "
       },
       size: {
         default: "h-10 px-4 py-2",
