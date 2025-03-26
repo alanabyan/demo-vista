@@ -13,7 +13,7 @@ export default function Home() {
               Find top rated destinations and real reviews from fellow travelers
             </p>
           </div>
-          <Button className="rounded-[35px] bg-[#D9D9D9] w-[149px] text-black h-[61px] md:mt-0 mt-10">
+          <Button className="rounded-[35px] bg-[#D9D9D9] w-[149px] text-black h-[61px] md:mt-0 mt-10 transition-all duration-300 ease-in hover:border-[#D9D9D9] hover:border-2 hover:text-white hover:bg-transparent">
             Explore Now
           </Button>
         </div>
