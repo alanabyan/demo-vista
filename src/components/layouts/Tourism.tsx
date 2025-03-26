@@ -43,10 +43,10 @@ export default function TourismCategory() {
         </div>
       </div>
       <div className="relative w-full mt-10">
-        <div className="overflow-hidden">
+        <div className="">
           <div
             className="flex transition-transform duration-300 lg:gap-x-[70px] md:gap-x-[40px] sm:gap-x-[20px] gap-x-[10px] w-full"
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+            style={{ transform: `translateX(-${currentIndex * 150}%)` }}
           >
             {destinations.map((dest, index) => (
               <div
